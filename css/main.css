@@ -1,0 +1,66 @@
+#home {
+    height: 50vh;
+    background-image: url('/img/Tiggeresss.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -10000;
+    display: block;
+    position: relative;
+    margin-top: 100px;
+}
+
+.home-hero {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 50vh;   
+    width: 100%;
+    z-index: -1000;
+}
+
+.main-home-box {
+    background-color: rgba(255, 255, 255, 0.80);
+    position: relative;
+    display: block;
+    outline: solid;
+    outline-color: rgba(255, 255, 255, 0.80);;
+    outline-offset: 10px;
+    height: 30%;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #fff;
+}
+
+.brand-size {
+    font-size: 25px; 
+}
+
+.navbar-size {
+    font-size: 20px;
+}
+
+.main-modal, .form-control {
+    border-radius: 0px;
+}
+
+.main-modal {
+    border: none;
+}
+
+.form-control:focus {
+    border-color: rgb(136, 136, 136);
+    box-shadow: none;
+}
+
+
+
+
+
